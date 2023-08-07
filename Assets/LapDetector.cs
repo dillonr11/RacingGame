@@ -14,6 +14,15 @@ public class LapDetector : MonoBehaviourPunCallbacks
 
     public Text lapCountText;
 
+    public float[] lapTimes; // Array to store lap times
+    public float lapStartTime; // Time when the current lap started
+
+
+    private void Start()
+    {
+        lapTimes = new float[totalLaps];
+    }
+
     // This method is called when a collider enters the trigger area
     private void OnTriggerEnter(Collider other)
     {
@@ -34,12 +43,36 @@ public class LapDetector : MonoBehaviourPunCallbacks
             }
             else
             {
-                
+
+
+
+
+                // Record the lap time
+                RecordLapTime();
+
+
+
+
+
                 lapCountText.text = "Lap: " + currentLap + "/" + totalLaps;
                 // Start the cooldown coroutine
                 StartCoroutine(CooldownCoroutine());
             }
         }
+    }
+
+    private void RecordLapTime()
+    {
+        // end last lap, store it, begin next lap timer
+
+        // Calculate the time taken for the current lap
+        float lapTime = Time.time - lapStartTime;
+
+        // Convert the time to integer seconds and store it in the array
+        lapTimes[currentLap - 1] = Mathf.FloorToInt(lapTime);
+
+        // Start the next lap
+        lapStartTime = Time.time;
     }
 
     // Custom method to handle game end when a player finishes all laps

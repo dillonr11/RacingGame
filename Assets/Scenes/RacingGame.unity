@@ -294,7 +294,6 @@ GameObject:
   m_Component:
   - component: {fileID: 49316113}
   - component: {fileID: 49316114}
-  - component: {fileID: 49316115}
   m_Layer: 0
   m_Name: Position Trigger (17)
   m_TagString: Untagged
@@ -338,19 +337,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &49316115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49316112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &52351598
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +347,6 @@ GameObject:
   m_Component:
   - component: {fileID: 52351599}
   - component: {fileID: 52351600}
-  - component: {fileID: 52351601}
   m_Layer: 0
   m_Name: Position Trigger (2)
   m_TagString: Untagged
@@ -405,19 +390,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &52351601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52351598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &62207349
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +400,6 @@ GameObject:
   m_Component:
   - component: {fileID: 62207350}
   - component: {fileID: 62207351}
-  - component: {fileID: 62207352}
   m_Layer: 0
   m_Name: Position Trigger (8)
   m_TagString: Untagged
@@ -472,19 +443,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &62207352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62207349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &70345134
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +453,6 @@ GameObject:
   m_Component:
   - component: {fileID: 70345135}
   - component: {fileID: 70345136}
-  - component: {fileID: 70345137}
   m_Layer: 0
   m_Name: Position Trigger (28)
   m_TagString: Untagged
@@ -539,19 +496,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &70345137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70345134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &80739073
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +854,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1133549209}
-  - {fileID: 969870543}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1083,7 +1026,6 @@ GameObject:
   m_Component:
   - component: {fileID: 222749635}
   - component: {fileID: 222749636}
-  - component: {fileID: 222749637}
   m_Layer: 0
   m_Name: Position Trigger
   m_TagString: Untagged
@@ -1127,19 +1069,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &222749637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222749634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &253016902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,7 +1395,6 @@ GameObject:
   m_Component:
   - component: {fileID: 305898378}
   - component: {fileID: 305898379}
-  - component: {fileID: 305898380}
   m_Layer: 0
   m_Name: Position Trigger (24)
   m_TagString: Untagged
@@ -1510,19 +1438,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &305898380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305898377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &311673494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1699,7 +1614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 331004826}
   - component: {fileID: 331004827}
-  - component: {fileID: 331004828}
   m_Layer: 0
   m_Name: Position Trigger (23)
   m_TagString: Untagged
@@ -1743,19 +1657,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &331004828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331004825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &344065147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2190,7 +2091,6 @@ GameObject:
   m_Component:
   - component: {fileID: 464886432}
   - component: {fileID: 464886433}
-  - component: {fileID: 464886434}
   m_Layer: 0
   m_Name: Position Trigger (1)
   m_TagString: Untagged
@@ -2234,19 +2134,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &464886434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464886431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &495488391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,7 +2144,6 @@ GameObject:
   m_Component:
   - component: {fileID: 495488392}
   - component: {fileID: 495488393}
-  - component: {fileID: 495488394}
   m_Layer: 0
   m_Name: Position Trigger (25)
   m_TagString: Untagged
@@ -2301,19 +2187,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &495488394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 495488391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &504944308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,7 +2197,6 @@ GameObject:
   m_Component:
   - component: {fileID: 504944309}
   - component: {fileID: 504944310}
-  - component: {fileID: 504944311}
   m_Layer: 0
   m_Name: Position Trigger (12)
   m_TagString: Untagged
@@ -2368,19 +2240,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &504944311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504944308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &512571872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2483,7 +2342,6 @@ GameObject:
   m_Component:
   - component: {fileID: 564053145}
   - component: {fileID: 564053146}
-  - component: {fileID: 564053147}
   m_Layer: 0
   m_Name: Position Trigger (6)
   m_TagString: Untagged
@@ -2527,19 +2385,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &564053147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564053144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &565279509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2870,7 +2715,6 @@ GameObject:
   m_Component:
   - component: {fileID: 640990081}
   - component: {fileID: 640990082}
-  - component: {fileID: 640990083}
   m_Layer: 0
   m_Name: Position Trigger (7)
   m_TagString: Untagged
@@ -2914,19 +2758,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &640990083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640990080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &642738377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690117835345764520, guid: 87b71185968dc4c4d9435c0493064027, type: 3}
@@ -3121,7 +2952,6 @@ GameObject:
   m_Component:
   - component: {fileID: 707916474}
   - component: {fileID: 707916475}
-  - component: {fileID: 707916476}
   m_Layer: 0
   m_Name: Position Trigger (11)
   m_TagString: Untagged
@@ -3165,19 +2995,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &707916476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707916473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &745072136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3685,7 +3502,6 @@ GameObject:
   m_Component:
   - component: {fileID: 814780212}
   - component: {fileID: 814780213}
-  - component: {fileID: 814780214}
   m_Layer: 0
   m_Name: Position Trigger (13)
   m_TagString: Untagged
@@ -3729,19 +3545,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &814780214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 814780211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &823588475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,7 +3555,6 @@ GameObject:
   m_Component:
   - component: {fileID: 823588476}
   - component: {fileID: 823588477}
-  - component: {fileID: 823588478}
   m_Layer: 0
   m_Name: Position Trigger (19)
   m_TagString: Untagged
@@ -3796,19 +3598,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &823588478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823588475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &832036490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3881,7 +3670,6 @@ GameObject:
   m_Component:
   - component: {fileID: 848716510}
   - component: {fileID: 848716511}
-  - component: {fileID: 848716512}
   m_Layer: 0
   m_Name: Position Trigger (27)
   m_TagString: Untagged
@@ -3925,19 +3713,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &848716512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848716509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &885896784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690117835345764520, guid: 87b71185968dc4c4d9435c0493064027, type: 3}
@@ -4087,7 +3862,6 @@ GameObject:
   m_Component:
   - component: {fileID: 913207536}
   - component: {fileID: 913207537}
-  - component: {fileID: 913207538}
   m_Layer: 0
   m_Name: Position Trigger (14)
   m_TagString: Untagged
@@ -4131,19 +3905,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &913207538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913207535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &919610276 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690117835345764520, guid: 87b71185968dc4c4d9435c0493064027, type: 3}
@@ -4218,7 +3979,6 @@ GameObject:
   m_Component:
   - component: {fileID: 945694239}
   - component: {fileID: 945694240}
-  - component: {fileID: 945694241}
   m_Layer: 0
   m_Name: Position Trigger (21)
   m_TagString: Untagged
@@ -4262,19 +4022,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &945694241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945694238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &950724512 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690117835345764520, guid: 87b71185968dc4c4d9435c0493064027, type: 3}
@@ -4426,130 +4173,6 @@ MonoBehaviour:
   player: {fileID: 1415044528144106380, guid: 77b5ac666c994c04c894703a846ad1b9, type: 3}
   spawnPoint: {fileID: 745072137}
   spawnPoint2: {fileID: 288593074}
---- !u!1 &969870542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 969870543}
-  - component: {fileID: 969870546}
-  - component: {fileID: 969870545}
-  - component: {fileID: 969870544}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &969870543
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969870542}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 149005130}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -539, y: 266}
-  m_SizeDelta: {x: 521.924, y: 178.8964}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &969870544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969870542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fedc680ee5eff96419482a6d1c89cacb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionDetectors:
-  - {fileID: 222749637}
-  - {fileID: 464886434}
-  - {fileID: 52351601}
-  - {fileID: 1425241711}
-  - {fileID: 1461206967}
-  - {fileID: 2100077564}
-  - {fileID: 564053147}
-  - {fileID: 640990083}
-  - {fileID: 62207352}
-  - {fileID: 1539368402}
-  - {fileID: 1872561691}
-  - {fileID: 707916476}
-  - {fileID: 504944311}
-  - {fileID: 814780214}
-  - {fileID: 913207538}
-  - {fileID: 1145969271}
-  - {fileID: 1114478959}
-  - {fileID: 49316115}
-  - {fileID: 1264005301}
-  - {fileID: 823588478}
-  - {fileID: 2000088442}
-  - {fileID: 945694241}
-  - {fileID: 1642298131}
-  - {fileID: 331004828}
-  - {fileID: 305898380}
-  - {fileID: 495488394}
-  - {fileID: 1218920842}
-  - {fileID: 848716512}
-  - {fileID: 70345137}
-  - {fileID: 1245968190}
-  positionText: {fileID: 969870545}
---- !u!114 &969870545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969870542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 100
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &969870546
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969870542}
-  m_CullTransparentMesh: 1
 --- !u!1001 &982658804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5101,7 +4724,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1114478957}
   - component: {fileID: 1114478958}
-  - component: {fileID: 1114478959}
   m_Layer: 0
   m_Name: Position Trigger (16)
   m_TagString: Untagged
@@ -5145,19 +4767,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1114478959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114478956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &1129098127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690117835345764520, guid: 87b71185968dc4c4d9435c0493064027, type: 3}
@@ -5341,7 +4950,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1145969269}
   - component: {fileID: 1145969270}
-  - component: {fileID: 1145969271}
   m_Layer: 0
   m_Name: Position Trigger (15)
   m_TagString: Untagged
@@ -5385,19 +4993,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1145969271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145969268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &1146000188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5676,7 +5271,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1218920840}
   - component: {fileID: 1218920841}
-  - component: {fileID: 1218920842}
   m_Layer: 0
   m_Name: Position Trigger (26)
   m_TagString: Untagged
@@ -5720,19 +5314,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1218920842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218920839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &1245968187
 GameObject:
   m_ObjectHideFlags: 0
@@ -5743,7 +5324,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1245968188}
   - component: {fileID: 1245968189}
-  - component: {fileID: 1245968190}
   m_Layer: 0
   m_Name: Position Trigger (29)
   m_TagString: Untagged
@@ -5787,19 +5367,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1245968190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245968187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &1264005298
 GameObject:
   m_ObjectHideFlags: 0
@@ -5810,7 +5377,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1264005299}
   - component: {fileID: 1264005300}
-  - component: {fileID: 1264005301}
   m_Layer: 0
   m_Name: Position Trigger (18)
   m_TagString: Untagged
@@ -5854,19 +5420,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1264005301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264005298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &1279771087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6425,7 +5978,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1425241709}
   - component: {fileID: 1425241710}
-  - component: {fileID: 1425241711}
   m_Layer: 0
   m_Name: Position Trigger (3)
   m_TagString: Untagged
@@ -6469,19 +6021,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1425241711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1425241708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &1461206964
 GameObject:
   m_ObjectHideFlags: 0
@@ -6492,7 +6031,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1461206965}
   - component: {fileID: 1461206966}
-  - component: {fileID: 1461206967}
   m_Layer: 0
   m_Name: Position Trigger (4)
   m_TagString: Untagged
@@ -6536,19 +6074,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1461206967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461206964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &1475357560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690117835345764520, guid: 87b71185968dc4c4d9435c0493064027, type: 3}
@@ -6766,7 +6291,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1539368400}
   - component: {fileID: 1539368401}
-  - component: {fileID: 1539368402}
   m_Layer: 0
   m_Name: Position Trigger (9)
   m_TagString: Untagged
@@ -6810,19 +6334,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1539368402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539368399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &1576995503
 GameObject:
   m_ObjectHideFlags: 0
@@ -6978,7 +6489,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1642298129}
   - component: {fileID: 1642298130}
-  - component: {fileID: 1642298131}
   m_Layer: 0
   m_Name: Position Trigger (22)
   m_TagString: Untagged
@@ -7022,19 +6532,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1642298131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642298128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &1644111978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7469,7 +6966,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1872561689}
   - component: {fileID: 1872561690}
-  - component: {fileID: 1872561691}
   m_Layer: 0
   m_Name: Position Trigger (10)
   m_TagString: Untagged
@@ -7513,19 +7009,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &1872561691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872561688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1001 &1893166551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7870,7 +7353,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2000088440}
   - component: {fileID: 2000088441}
-  - component: {fileID: 2000088442}
   m_Layer: 0
   m_Name: Position Trigger (20)
   m_TagString: Untagged
@@ -7914,19 +7396,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &2000088442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000088439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!1 &2003144160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1931263811094268200, guid: 959015518f1218a4cac02df950547865, type: 3}
@@ -8361,7 +7830,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2100077562}
   - component: {fileID: 2100077563}
-  - component: {fileID: 2100077564}
   m_Layer: 0
   m_Name: Position Trigger (5)
   m_TagString: Untagged
@@ -8405,19 +7873,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8315468, y: 4.146921, z: 21.035946}
   m_Center: {x: 0.08422661, y: -1.0257225, z: -2.0444584}
---- !u!114 &2100077564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100077561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e033980b0ebea24ba5d1ea7868b12a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRacersToTrack: 2
 --- !u!4 &279472841754610016
 Transform:
   m_ObjectHideFlags: 0
