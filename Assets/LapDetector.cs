@@ -43,17 +43,8 @@ public class LapDetector : MonoBehaviourPunCallbacks
             }
             else
             {
-
-
-
-
                 // Record the lap time
                 RecordLapTime();
-
-
-
-
-
                 lapCountText.text = "Lap: " + currentLap + "/" + totalLaps;
                 // Start the cooldown coroutine
                 StartCoroutine(CooldownCoroutine());

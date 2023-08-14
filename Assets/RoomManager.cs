@@ -13,6 +13,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
     [Space]
     public Transform spawnPoint2;
 
+    
+
 
 
     // Start is called before the first frame update
