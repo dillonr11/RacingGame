@@ -7208,6 +7208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startGame: 0
   countdownText: {fileID: 253016904}
+  winner: 
 --- !u!114 &1527090226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7333,6 +7334,7 @@ GameObject:
   - component: {fileID: 1576995506}
   - component: {fileID: 1576995505}
   - component: {fileID: 1576995504}
+  - component: {fileID: 1576995507}
   m_Layer: 0
   m_Name: Lap Trigger
   m_TagString: Untagged
@@ -7355,8 +7357,12 @@ MonoBehaviour:
   totalLaps: 3
   currentLap: 0
   lapCountText: {fileID: 1133549210}
-  lapTimes: []
-  lapStartTime: 0
+  gameManager: {fileID: 1527090225}
+  lapTimes:
+  - 0
+  - 0
+  - 0
+  lapStart: 0
 --- !u!65 &1576995505
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7397,6 +7403,28 @@ RectTransform:
   m_AnchoredPosition: {x: -16.28, y: 6.7}
   m_SizeDelta: {x: 1092, y: 548}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1576995507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576995503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 32
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1640880926
 PrefabInstance:
   m_ObjectHideFlags: 0

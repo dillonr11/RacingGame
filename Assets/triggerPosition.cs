@@ -40,7 +40,7 @@ public class triggerPosition : MonoBehaviourPun
                 // need to add to list
                 if (players.Count == 0)
                 {
-                    Debug.Log("if case getting called");
+                    // Debug.Log("if case getting called");
                     // you are in first
                     this.photonView.RPC("updateList", RpcTarget.All, photonView.ViewID, false);
                     if (photonView.IsMine)
@@ -50,7 +50,7 @@ public class triggerPosition : MonoBehaviourPun
                     }
                 } else if (players.Count == 1)
                 {
-                    Debug.Log("else if case getting called");
+                    // Debug.Log("else if case getting called");
                     // you are in second
                     this.photonView.RPC("updateList", RpcTarget.All, photonView.ViewID, false);
                     if (photonView.IsMine)
@@ -61,8 +61,8 @@ public class triggerPosition : MonoBehaviourPun
                 }
                 else
                 {
-                    Debug.Log(players.Count);
-                    Debug.Log("else case getting called");
+                    // Debug.Log(players.Count);
+                    // Debug.Log("else case getting called");
                     // full, need to empty and you are in first
                     this.photonView.RPC("updateList", RpcTarget.All, photonView.ViewID, true);
                     if (photonView.IsMine)

@@ -27,7 +27,6 @@ public class PrometeoCarController : MonoBehaviourPunCallbacks
 
     private Vector3 spawn2 = new Vector3(100.0f, 0.15f, -25.8f);
 
-    private bool localStart = false;
 
     //CAR SETUP
 

@@ -1,5 +1,6 @@
 using Photon.Pun;
 using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,13 +15,16 @@ public class LapDetector : MonoBehaviourPunCallbacks
 
     public Text lapCountText;
 
-    public float[] lapTimes; // Array to store lap times
-    public float lapStartTime; // Time when the current lap started
+    public GameManager gameManager;
+
+    public double[] lapTimes = new double[3];
+
+    public double lapStart = 0.0;
 
 
     private void Start()
     {
-        lapTimes = new float[totalLaps];
+        
     }
 
     // This method is called when a collider enters the trigger area
@@ -36,15 +40,31 @@ public class LapDetector : MonoBehaviourPunCallbacks
         if (canTrigger && playerObject.CompareTag("Player") && photonView != null && photonView.IsMine)
         {
             currentLap++;
-            if (currentLap >= totalLaps)
+            if (currentLap > totalLaps)
             {
+
+                // lap just finished
+                double lapTime = (PhotonNetwork.Time) - lapStart;
+                lapTimes[currentLap - 2] = lapTime;
+
                 // Call a custom method to handle the game end and declare a winner
-                GameEnd();
+                GameEnd(other);
             }
             else
             {
-                // Record the lap time
-                RecordLapTime();
+                if (currentLap == 1)
+                {
+                    lapStart = PhotonNetwork.Time;
+                }
+                else
+                {
+                    // lap just finished
+                    double lapTime = (PhotonNetwork.Time) - lapStart;
+                    lapStart = (PhotonNetwork.Time);
+                    lapTimes[currentLap-2] = lapTime;
+                    
+                }
+                
                 lapCountText.text = "Lap: " + currentLap + "/" + totalLaps;
                 // Start the cooldown coroutine
                 StartCoroutine(CooldownCoroutine());
@@ -52,25 +72,24 @@ public class LapDetector : MonoBehaviourPunCallbacks
         }
     }
 
-    private void RecordLapTime()
-    {
-        // end last lap, store it, begin next lap timer
-
-        // Calculate the time taken for the current lap
-        float lapTime = Time.time - lapStartTime;
-
-        // Convert the time to integer seconds and store it in the array
-        lapTimes[currentLap - 1] = Mathf.FloorToInt(lapTime);
-
-        // Start the next lap
-        lapStartTime = Time.time;
-    }
 
     // Custom method to handle game end when a player finishes all laps
-    private void GameEnd()
+    private void GameEnd(Collider other)
     {
-        // Add your code here to handle the end of the game
-        // For example, you can show a winner UI, restart the race, etc.
+        if (gameManager.winner == "")
+        {
+            // Get the player GameObject from the collider
+            GameObject playerObject = other.gameObject;
+
+            // Find the PhotonView component in the player GameObject's hierarchy
+            PhotonView photonView = playerObject.GetComponentInParent<PhotonView>();
+
+            this.photonView.RPC("winnerUpdate", RpcTarget.All, photonView.ViewID);
+        }
+        else
+        {
+            Debug.Log("You lost");
+        }
         Debug.Log("game over");
     }
 
@@ -85,5 +104,11 @@ public class LapDetector : MonoBehaviourPunCallbacks
 
         // Reset the flag to allow triggering again
         canTrigger = true;
+    }
+
+    [PunRPC]
+    public void winnerUpdate(int id)
+    {
+        gameManager.winner = id.ToString();
     }
 }

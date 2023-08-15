@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviourPunCallbacks, IPunObservable
     
     private bool showCountdownText = false;
 
+    public string winner = "";
+
     // Start is called before the first frame update
     void Start()
     {
