@@ -42,7 +42,7 @@ public class triggerPosition : MonoBehaviourPun
                 {
                     // Debug.Log("if case getting called");
                     // you are in first
-                    this.photonView.RPC("updateList", RpcTarget.All, photonView.ViewID, false);
+                    this.photonView.RPC("updateList", RpcTarget.MasterClient, photonView.ViewID, false);
                     if (photonView.IsMine)
                     {
                         localCanTrigger = false;
@@ -52,7 +52,7 @@ public class triggerPosition : MonoBehaviourPun
                 {
                     // Debug.Log("else if case getting called");
                     // you are in second
-                    this.photonView.RPC("updateList", RpcTarget.All, photonView.ViewID, false);
+                    this.photonView.RPC("updateList", RpcTarget.MasterClient, photonView.ViewID, false);
                     if (photonView.IsMine)
                     {
                         localCanTrigger = false;
@@ -64,7 +64,7 @@ public class triggerPosition : MonoBehaviourPun
                     // Debug.Log(players.Count);
                     // Debug.Log("else case getting called");
                     // full, need to empty and you are in first
-                    this.photonView.RPC("updateList", RpcTarget.All, photonView.ViewID, true);
+                    this.photonView.RPC("updateList", RpcTarget.MasterClient, photonView.ViewID, true);
                     if (photonView.IsMine)
                     {
                         localCanTrigger = false;
@@ -104,6 +104,6 @@ public class triggerPosition : MonoBehaviourPun
         }
 
         // Now synchronize the changes over the network
-        this.photonView.RPC("AddPlayerToList", RpcTarget.All, id);
+        this.photonView.RPC("AddPlayerToList", RpcTarget.MasterClient, id);
     }
 }
